@@ -1,0 +1,123 @@
+/* Colors */
+$primary: #4947BE;
+$second: #FFBF00;
+$bg: #121212;
+$padding_spacing: 0 1.5em;
+$padding_spacing_desktop: 0 25rem;
+
+/* Custom Mixins */ 
+
+@mixin home__showcase__heading__mobile() {
+    font-size: 45.6px;
+    line-height: 54.72px;
+    font-weight: 600;
+    color:#121213;
+}
+
+@mixin home__showcase__heading__tablet() {
+    font-size: 60.8px !important;
+    line-height: 72.96px !important;
+    font-weight: 600;
+    color:#121213;
+}
+
+@mixin home__showcase__heading__desktop() {
+    font-size: 76px !important;
+    line-height: 91.2px !important;
+    font-weight: 600;
+    color:#121213;
+}
+
+@mixin home__paragraph__mobile() {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.8px;
+    font-family: 'Open sans', sans-serif;
+}
+
+@mixin home__paragraph__tablet() {
+    font-size: 18px !important;
+    font-weight: 400;
+    line-height: 32.4px !important;
+    font-family: 'Open sans', sans-serif;
+}
+
+@mixin home__heading__mobile() {
+    font-size: 31.2px;
+    line-height: 49.92px;
+    font-weight: 700;
+}
+
+@mixin home__heading__tablet() {
+    font-size: 40.8px !important;
+    line-height: 76.8px !important;
+    font-weight: 700;
+}
+
+@mixin home__heading__desktop() {
+    font-size: 48px !important;
+    line-height: 65.28px !important;
+    font-weight: 700;
+}
+
+@mixin home__services__heading__mobile() {
+    font-size: 22.5px;
+    line-height: 31.5px;
+    font-weight: 700;
+}
+
+@mixin home__services__heading__tablet() {
+    font-size: 28px ;
+    line-height: 35.7px ;
+    font-weight: 700 ;
+}
+
+@mixin home__services__heading__desktop() {
+    font-size: 48px !important;
+    line-height: 67.2px !important;
+    font-weight: 700 ;
+}
+
+
+@mixin home__hover__links() {
+    background: #A0A0A1;
+}
+
+@mixin home__cta__mobile() {
+    font-size: 18px; 
+    line-height: 39.6px;
+    font-weight: 400;
+    background: $primary;
+    padding: 6px 36px;
+}
+
+
+@mixin nav__links__mobile() {
+    font-size: 22.4px; 
+    line-height: 44.8px;
+    font-weight: 700;
+}
+
+@mixin nav__links__desktop() {
+    font-size: 16px !important; 
+    line-height: 32px !important;
+    font-weight: 700;
+}
+
+@mixin flex($pos, $align) {
+    display: flex;
+    justify-content: $pos;
+    align-items: $align;
+}
+
+@mixin grid($min,$max, $pos, $align) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax($min,$max));
+    justify-content: $pos;
+    align-items: $align;
+}
+
+@mixin reset__links($color) {
+    text-decoration: none;
+    color: $color;
+}

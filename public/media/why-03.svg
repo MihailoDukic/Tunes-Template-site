@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="88" height="88" viewBox="0 0 88 88">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4947be"/>
+      <stop offset="1" stop-color="#25245f"/>
+    </linearGradient>
+  </defs>
+  <g id="photo-009" transform="translate(-607 -1548)">
+    <circle id="Ellipse_2_copy_4" data-name="Ellipse 2 copy 4" cx="44" cy="44" r="44" transform="translate(607 1548)" fill="#f6f6f9"/>
+    <g id="playlist" transform="translate(628 1569)">
+      <path id="Path_68428" data-name="Path 68428" d="M90.939,97.276l-9.308-6.007a20.463,20.463,0,0,1,4.027-5.611,21.5,21.5,0,0,1,5.611-4.027l6.007,9.308a10.291,10.291,0,0,0-6.337,6.337Zm23.633,17.3V105.4c4.753.066,6.271,1.98,5.149,6.337,6.865-6.667-.792-10.958-7.526-10.892v9.9a5.39,5.39,0,0,0-1.782-.4,4.255,4.255,0,0,0-4.225,4.225,4.2,4.2,0,0,0,4.225,4.159A4.142,4.142,0,0,0,114.572,114.572Zm-13.8-4.687a9.077,9.077,0,1,1,9.11-9.11A9.072,9.072,0,0,1,100.775,109.885Zm0-31.885a22.808,22.808,0,1,0,22.841,22.775A22.736,22.736,0,0,0,100.775,78Z" transform="translate(-78 -78)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
